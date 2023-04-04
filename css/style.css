@@ -12,8 +12,8 @@ body {
 
 .calculator {
     
-	max-width: 400px;
-	margin: 20px auto;
+	max-width: 300px;
+	margin: 30px auto;
 	padding: 20px;
 	background-color: #fff;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -61,4 +61,11 @@ button {
 .clear {
 	background-color: #f44336;
 	color: #fff;
+}
+footer{
+	text-align: center;
+	margin-top: 40px;
+}
+a{
+	text-decoration: none;
 }
