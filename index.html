@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple Calculator</title>
+    <!-- css  -->
+	<link rel="stylesheet" href="style.css">
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+</head>
+<body>
+	<div class="calculator">
+		<div class="screen">
+			<input type="text" id="result" readonly>
+		</div>
+		<div class="buttons">
+			<button onclick="buttonClicked('7')">7</button>
+			<button onclick="buttonClicked('8')">8</button>
+			<button onclick="buttonClicked('9')">9</button>
+			<button class="operator" onclick="buttonClicked('/')">/</button>
+			<button onclick="buttonClicked('4')">4</button>
+			<button onclick="buttonClicked('5')">5</button>
+			<button onclick="buttonClicked('6')">6</button>
+			<button class="operator" onclick="buttonClicked('*')">*</button>
+			<button onclick="buttonClicked('1')">1</button>
+			<button onclick="buttonClicked('2')">2</button>
+			<button onclick="buttonClicked('3')">3</button>
+			<button class="operator" onclick="buttonClicked('-')">-</button>
+			<button onclick="buttonClicked('0')">0</button>
+			<button onclick="buttonClicked('.')">.</button>
+			<button class="equals" onclick="equalsClicked()">=</button>
+			<button class="operator" onclick="buttonClicked('+')">+</button>
+			<button class="clear" onclick="clearClicked()">C</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
